@@ -97,6 +97,9 @@ fn main() {
 }
 ```
 
+`[brent] &mut guess is confusing to me. guess is already mutable, so why do I need to say it again?`
+`[brent] To me, & is also strange (redundant) because strings are reference types, so why do I need &?`
+
 <span class="caption">Listing 2-1: Code that gets a guess from the user and
 prints it</span>
 
