@@ -98,8 +98,10 @@ fn main() {
 ```
 
 ```
-[brent] &mut guess is confusing to me. guess is already mutable, so why do I need to say it again?
-& is also strange (redundant?) because strings are reference types, so why do I need &?
+[brent] 
+1) &mut guess is confusing to me. guess is already mutable, so why do I need to say it again?
+2) & is also strange (redundant?) because strings are reference types, so why do I need &?
+3) "expect" fn name is not intuitive to me. Why not call it "unwrap_or_handle" or something?
 ```
 
 <span class="caption">Listing 2-1: Code that gets a guess from the user and
