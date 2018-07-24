@@ -8,8 +8,7 @@ encourages you to favor immutability and why sometimes you might want to opt
 out.
 
 ```
-[brent] Concurrency is mentioned here but the connection between immutability and
-concurrency is not clear on this page
+[brent] Concurrency is mentioned here but the connection between immutability and concurrency is not clear on this page
 ```
 
 When a variable is immutable, once a value is bound to a name, you can’t change
