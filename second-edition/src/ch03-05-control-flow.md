@@ -395,6 +395,10 @@ index length is incorrect. It’s also slow, because the compiler adds runtime
 code to perform the conditional check on every element on every iteration
 through the loop.
 
+```
+[brent] The conditional does not check elements. See PR: https://github.com/rust-lang/book/pull/1458/files
+```
+
 As a more concise alternative, you can use a `for` loop and execute some code
 for each item in a collection. A `for` loop looks like the code in Listing 3-5.
 
