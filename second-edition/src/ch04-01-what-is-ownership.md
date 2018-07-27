@@ -362,6 +362,10 @@ In addition, there’s a design choice that’s implied by this: Rust will never
 automatically create “deep” copies of your data. Therefore, any *automatic*
 copying can be assumed to be inexpensive in terms of runtime performance.
 
+```
+[brent] It would be lovely to have an example of this right here to drive the point home.
+```
+
 #### Ways Variables and Data Interact: Clone
 
 If we *do* want to deeply copy the heap data of the `String`, not just the
